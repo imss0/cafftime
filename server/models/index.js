@@ -1,13 +1,13 @@
-const mongoose = require('mongoose');
-const dbName = 'cafftime';
- // when deploy, prepare .env file and set real DB_PORT and DB_NAME (e.g. const dbName = process.env.DB_NAME || 'cafftme')
+const mongoose = require("mongoose");
+const dotenv = require("dotenv");
+dotenv.config();
 
 mongoose
-  .connect(`mongodb://127.0.0.1:27017/${dbName}`, {
+  .connect(process.env.DB_URL, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
-  .then(() => console.log(`DB Connected to : ${dbName}`))
+  .then(() => console.log(`DB Connected to cafftime`))
   .catch((e) => console.log("connection failed", e));
 
 module.exports = mongoose;
