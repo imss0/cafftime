@@ -10,6 +10,16 @@ Cafftime is a caffeine intake tracker service. This app will give you answer to 
 
 
 ### Screenshots
+<p float="left">
+  <img src="https://i.ibb.co/cg1kb0Y/caff1.gif" width="250">
+  <img src="https://i.ibb.co/Yd06XVM/caff2.gif" width="250"> 
+  <img src="https://i.ibb.co/3CWmMRh/caff3.gif" width="250">
+</p>
 
-<img src="https://i.ibb.co/T2rRq7Z/ezgif-1-371590547e.gif" width="250">
-<img src="https://i.ibb.co/WcyGBPv/ezgif-1-20b94617c0.gif" width="250">
+### Getting Started
+
+### Installation
+npm install
+1) in root folder **(cafftime)**
+2) in **client** folder
+3) in **server** folder
