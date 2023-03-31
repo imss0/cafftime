@@ -1,6 +1,6 @@
 # cafftime
 
-<center><img src="https://i.ibb.co/TKN5ncs/Screenshot-2023-03-31-at-19-46-53.png" width="300"></center>
+<p align="center"><img src="https://i.ibb.co/TKN5ncs/Screenshot-2023-03-31-at-19-46-53.png" width="300"></p>
 Cafftime is a caffeine intake tracker service. This app will give you answer to these questions!
 
 ✔️ How much caffeine does this drink contain?<br/>
